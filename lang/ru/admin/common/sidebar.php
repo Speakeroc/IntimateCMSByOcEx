@@ -1,0 +1,17 @@
+<?php
+
+return [
+    'title_main'            => 'Информация',
+    'title_users'           => 'Пользователи',
+    'title_system'          => 'Система',
+    'title_post'            => 'Анкеты и салоны',
+    'title_images'          => 'Изображения анкет',
+    'title_info'            => 'Информация',
+    'title_payment'         => 'Оплата',
+    'title_location'        => 'Расположение',
+    'title_moderation'      => 'Модерация',
+    'site_cache'            => 'Кеш сайта',
+    'cache_image'           => 'Кеш изображений',
+    'cache_temp_image'      => 'Временные изображения',
+    'cache_log'             => 'Кеш логов',
+];

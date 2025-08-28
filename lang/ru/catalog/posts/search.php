@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'section_main'          => 'Общее',
+    'section_params'        => 'Параметры внешности',
+    'section_national'      => 'Характеристики внешности',
+    'section_prices'        => 'Цены на услуги',
+    'section_services'      => 'Услуги',
+
+    'section'               => 'Категория',
+    'zone'                  => 'Район',
+    'metro'                 => 'Метро',
+    'tags'                  => 'Теги',
+    'language_skills'       => 'Знание языков',
+    'visit_places'          => 'Выезжаю',
+    'express'               => 'Есть экспресс',
+    'health'                => 'Проверено интимное здоровье',
+    'apartment'             => 'Есть апартаменты',
+    'arrival'               => 'Есть выезд',
+    'nationality'           => 'Национальность',
+    'body_type'             => 'Телосложение',
+    'hair_color'            => 'Цвет волос',
+    'hairy'                 => 'Интимная стрижка',
+    'body_art'              => 'Боди-арт',
+    'age'                   => 'Возраст, лет',
+    'height'                => 'Рост, см',
+    'weight'                => 'Вес, кг',
+    'breast'                => 'Грудь',
+    'shoes'                 => 'Размер обуви',
+    'cloth'                 => 'Размер одежды',
+    'day'                   => 'День',
+    'night'                 => 'Ночь',
+    'price_time_in'         => 'Апартаменты :currency/:hourчас',
+    'price_time_out'        => 'Выезд :currency/:hourчас',
+    'price_night'           => 'Ночь :currency/ночь',
+
+
+    'section_individuals'   => 'Индивидуалки',
+    'section_premium'       => 'PREMIUM',
+    'section_elite'         => 'Элитные',
+    'section_bdsm'          => 'БДСМ',
+    'section_masseuse'      => 'Массажистки',
+
+    'doesnt_matter'         => 'не важно',
+];

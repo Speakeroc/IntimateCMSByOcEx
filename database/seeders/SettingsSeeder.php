@@ -1,0 +1,102 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\system\Settings;
+use Illuminate\Database\Seeder;
+
+class SettingsSeeder extends Seeder
+{
+    public function run() {
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'meta_title'],['value' => 'IntimateCMS - Система №1 для вашего сайта с эскортницами']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'meta_h1'],['value' => 'IntimateCMS - Система №1 для вашего сайта с эскортницами 1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'meta_description'],['value' => 'На сайте IntimateCMS собраны анкеты всех проститутки, индивидуалки, салоны и массажистки. Анкеты с отзывами и реальными фото. Интим услуги на любой вкус.']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'support_email'],['value' => 'support@ocex.dev']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'default_city_id'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'currency_symbol_right'],['value' => '₽']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'currency_symbol_left'],['value' => '']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'currency_symbol_code'],['value' => 'RUB']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_block_city_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_block_zone_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_block_date_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_main_photo'],['value' => '{"max_width":"1500","max_height":"1500","access_format":"jpg, jpeg, png","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_photo'],['value' => '{"max_width":"1500","max_height":"1500","access_format":"jpg, jpeg, png","count":"5","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_selfie'],['value' => '{"max_width":"1500","max_height":"1500","access_format":"jpg, jpeg, png","count":"5","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_video'],['value' => '{"access_format":"mp4, quicktime","count":"50","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_verify'],['value' => '{"max_width":"1500","max_height":"1500","access_format":"jpg, jpeg, png","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_activation_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'watermark_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_display_cloth'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_display_shoes'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_display_zone'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_display_metro'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'salon_activation_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'salon_main_photo'],['value' => '{"max_width":"2500","max_height":"2500","access_format":"jpg, jpeg, png","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'salon_photo'],['value' => '{"max_width":"2500","max_height":"2500","access_format":"jpg, jpeg, png","count":"25","size":"5"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_post_banner'],['value' => '{"status":"1","count":"6","sort_order":"3"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_news'],['value' => '{"status":"1","count":"6","sort_order":"13"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_banners'],['value' => '{"status":"0","count":"6","sort_order":"2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_popular'],['value' => '{"status":"1","count":"9","watermark":"0","template":"style_2","sort_order":"6"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_individual'],['value' => '{"status":"1","count":"2","watermark":"0","template":"style_2","sort_order":"6"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_premium'],['value' => '{"status":"1","count":"8","watermark":"0","template":"style_4","sort_order":"6"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_health'],['value' => '{"status":"1","count":"9","watermark":"0","template":"style_2","sort_order":"7"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_latest'],['value' => '{"status":"1","count":"4","watermark":"0","template":"style_3","sort_order":"8"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_elite'],['value' => '{"status":"1","count":"9","watermark":"0","template":"style_2","sort_order":"9"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_bdsm'],['value' => '{"status":"1","count":"2","watermark":"0","template":"style_1","sort_order":"10"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_masseuse'],['value' => '{"status":"1","count":"4","watermark":"0","template":"style_3","sort_order":"11"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_salon'],['value' => '{"status":"1","count":"3","watermark":"0","template":"big_salon","sort_order":"12"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_all'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_popular'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_individual'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_3"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_premium'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_health'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_latest'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_3"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_elite'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_bdsm'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_masseuse'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_3"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_salon'],['value' => '{"count_per_page":"20","watermark":"0","template":"big_salon"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_search'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_services'],['value' => '{"count_per_page":"20","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_tags'],['value' => '{"count_per_page":"21","watermark":"0","template":"style_2"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_city'],['value' => '{"count_per_page":null,"watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_zone'],['value' => '{"count_per_page":null,"watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_metro'],['value' => '{"count_per_page":null,"watermark":"0","template":"style_1"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'page_news'],['value' => '{"count_per_page":"18"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'micro_site_name'],['value' => 'IntimаteCMS']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'auth_email_verify'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'reg_start_balance'],['value' => '500']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'reg_privacy'],['value' => '3']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_prices'],['value' => '{"diamond_act":"1500","diamond_ext":"750","vip_act":"1000","vip_ext":"500","color_act":"500","color_ext":"250","up_to_top":"500"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'salon_prices'],['value' => '{"up_to_top":"1500"}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'social_links'],['value' => '{"1":{"social":"telegram","link":"https:\/\/t.me\/intimatecms"},"2":{"social":"whatsapp","link":"https:\/\/t.me\/intimatecms"},"3":{"social":"youtube","link":"https:\/\/t.me\/intimatecms"},"4":{"social":"facebook","link":"https:\/\/t.me\/intimatecms"},"5":{"social":"instagram","link":"https:\/\/t.me\/intimatecms"},"6":{"social":"pinterest","link":"https:\/\/t.me\/intimatecms"},"7":{"social":"linkedin","link":"https:\/\/t.me\/intimatecms"},"8":{"social":"snapchat","link":"https:\/\/t.me\/intimatecms"},"9":{"social":"x","link":"https:\/\/t.me\/intimatecms"},"10":{"social":"tiktok","link":"https:\/\/t.me\/intimatecms"},"11":{"social":"wechat","link":"https:\/\/t.me\/intimatecms"}}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'age_detect'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_status'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_title'],['value' => 'Подписаться']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_btn_title'],['value' => 'Подписаться']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_btn_link'],['value' => 'https://t.me/intimatecms']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_btn_color'],['value' => '#24a1de']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_btn_color_t'],['value' => '#ffffff']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'header_display_zone'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'header_display_city'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'header_display_map'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_verify_text'],['value' => '&lt;p&gt;&lt;strong&gt;Что такое проверочное фото?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Чтобы анкета была с отметкой &quot;фото проверено&quot; и показывалась выше непроверенных анкет, Вам необходимо добавить проверочную фотографию.&lt;/p&gt;&lt;p&gt;Проверочная фотография - это фотография ДЕВУШКИ ИЗ АНКЕТЫ с листком бумаги, на котором от руки написана свежая дата и название сайта.&lt;/p&gt;&lt;p&gt;Фотошоп, плохое качество фотографии запрещены на проверочной фотографии.&lt;/p&gt;&lt;p&gt;Если Вы добавите или удалите фотографии из уже проверенной анкеты - отметка &quot;фото проверено&quot; пропадёт, и Вам нужно будет снова присылать проверочную фотографию.&lt;/p&gt;&lt;p&gt;Отметка &quot;фото проверено&quot; не ставится анкетам в фотографиях у которых лицо замазано или его не видно. Также анкеты с большим количеством ретуши на фото не получают статус проверенной.&lt;/p&gt;']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'custom_js'],['value' => '']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'subscribe_text'],['value' => '&lt;p&gt;Привет! Иногда &lt;a href=&quot;https://t.me/intimatecms&quot;&gt;Intimate CMS&lt;/a&gt; меняет свою ссылку. Подпишись на наш БОТ &lt;a href=&quot;https://t.me/intimatecms&quot;&gt;Телеграм - БОТ&lt;/a&gt;, чтобы не потерять нас в случае блокировок.&lt;/p&gt;']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'robots'],['value' => 'User-agent: * Disallow: /*?page=$ Disallow: /*&amp;page=$ Disallow: /id* Disallow: /auth* Disallow: /search? Disallow: /images/cache/ Disallow: /images/posts/ Sitemap: https://cms.ocex.dev/sitemap.xml']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'footer_text'],['value' => '&lt;p&gt;Проститутки и индивидуалки готовы исполнить все ваши самые смелые желания. У нас огромный выбор девушек: от классических красавиц до страстных доминанток. Наши девушки предлагают широкий спектр услуг — минет без презерватива, классический секс, доминирование, интим в машине, различные виды окончания и даже эротический массаж. Красивые и сексуальные, они готовы подарить вам незабываемые моменты удовольствия.&lt;/p&gt;&lt;p&gt;Индивидуалки — это реальный шанс окунуться в мир удовольствия. У нас только элитные проститутки, которые можно вызвать на дом или в гостиницу. Здесь вы найдете девушек, готовых к любым вашим фантазиям, и сможете насладиться профессиональным подходом к интимным услугам. Хотите провести ночь с одной из этих красавиц? Выбирайте реальных девушек для секса и наслаждайтесь качественным сервисом!&lt;/p&gt;&lt;p&gt;Реальные индивидуалки и элитные девушки по вызову – это идеальная возможность провести незабываемое время с самыми привлекательными девушками города. У нас только настоящие анкеты, и все представленные индивидуалки готовы встретиться с вами лично. Каждая из них – это реальная девушка с уникальной внешностью и стилем, что позволяет подобрать спутницу на любой вкус. Блондинки с роскошными волосами, загадочные брюнетки, стройные модели и пышные красотки – все они готовы подарить вам настоящие удовольствия и исполнить самые смелые желания.&lt;/p&gt;&lt;p&gt;Наши индивидуалки – это не только красивые лица, но и высокий уровень профессионализма. Вы сможете насладиться не только приятным общением, но и полным спектром интимных услуг. Если вы хотите заказать девушку на дом или в гостиницу, мы гарантируем конфиденциальность и быстрый сервис.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Почему стоит выбрать наши реальные анкеты проституток&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Подлинность информации: все анкеты проверены, и девушки действительно предоставляют услуги. Вы получаете именно ту спутницу, которую видите на фото.&lt;/li&gt;&lt;li&gt;Широкий выбор типажей: блондинки, брюнетки, рыжие, стройные модели или девушки с пышными формами – у нас есть индивидуалки на любой вкус.&lt;/li&gt;&lt;li&gt;Гарантия безопасности: мы заботимся о вашем комфорте и конфиденциальности, поэтому сотрудничество с нами абсолютно безопасно.&lt;/li&gt;&lt;li&gt;Профессионализм и разнообразие услуг: наши девушки не только красивые, но и профессионалы в сфере интимных услуг. Минет без презерватива, доминирование, эротический массаж – вы получите именно то, что хотите.&lt;/li&gt;&lt;li&gt;Оперативность вызова: вы можете вызвать девушку на дом или в гостиницу, и она прибудет в кратчайшие сроки.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Наша платформа предлагает только проверенные анкеты элитных проституток, готовых к реальной встрече. Выберите девушку по своему вкусу и наслаждайтесь незабываемыми моментами с настоящими профессионалами!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Что вы получите сняв проститутку&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Когда вы хотите по-настоящему хорошо потрахаться и ощутить настоящее наслаждение, выбор должен быть очевиден – с сочной, сексуальной девушкой, которая знает толк в удовольствии. В нашей подборке только первоклассные шлюхи, которые готовы исполнить все ваши самые грязные фантазии. Эти девушки точно знают, как доставить вам максимум удовольствия, чтобы каждая минута с ними оставалась в памяти надолго. Выбирайте ту, что заведет вас с первых минут, и погружайтесь в мир похоти и страсти.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Что вас ждет, сняв проститутку&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Минет в машине: почувствуйте себя на грани экстаза, когда девушка с чувственными губами нежно и страстно углубляется в ваше удовольствие прямо в автомобиле.&lt;/li&gt;&lt;li&gt;Жесткий секс: когда хочется грубости и дикого драйва, эти девочки умеют ответить на ваши запросы с полной отдачей, оставляя след страсти на вашем теле.&lt;/li&gt;&lt;li&gt;Глубокий минет: их мастерство в оральных ласках доведет вас до предела. Глубокий, с умелым контролем дыхания – такой минет вы не забудете никогда.&lt;/li&gt;&lt;li&gt;Анальный секс: для тех, кто любит разнообразие и особые ощущения, наши девушки с радостью исполнят ваши пожелания в этой области.&lt;/li&gt;&lt;li&gt;Фистинг и доминирование: хотите подчиниться или стать хозяином? Эти девушки играют по любым правилам, позволяя вам чувствовать контроль и одновременно наслаждаться.&lt;/li&gt;&lt;li&gt;Нежные поцелуи: если вы любите, когда к вам относятся с чувственностью, их поцелуи станут началом нежной прелюдии к более бурным удовольствиям.&lt;/li&gt;&lt;li&gt;Стриптиз: начните ваше свидание с соблазнительного стриптиза, где девушка грациозно снимает каждую деталь одежды, дразня ваши желания.&lt;/li&gt;&lt;li&gt;Окончание в рот: для завершения ночи выберите окончание в рот, когда ваше удовольствие достигнет апогея, а девушка сделает этот момент незабываемым.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;С нашими элитными проститутками вы получите именно то, чего жаждете – без пределов и запретов, полное удовлетворение ваших самых смелых фантазий!&lt;/p&gt;']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_publish_variable'],['value' => '{"1":{"days":"1","price":"500"},"2":{"days":"5","price":"2400"},"3":{"days":"10","price":"4700"},"4":{"days":"15","price":"10000"},"5":{"days":"30","price":"19500"},"6":{"days":"60","price":"35000"},"7":{"days":"365","price":"100000"}}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'salon_publish_variable'],['value' => '{"1":{"days":"1","price":"1000"},"2":{"days":"2","price":"2000"},"3":{"days":"3","price":"3001"},"4":{"days":"5","price":"5000"},"5":{"days":"10","price":"10000"},"6":{"days":"15","price":"15000"},"7":{"days":"30","price":"30000"},"8":{"days":"90","price":"90000"},"9":{"days":"365","price":"365000"}}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'image_logo'],['value' => '/images/settings/logo.png']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'image_watermark'],['value' => '/images/settings/watermark.png']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'sitemap_url'],['value' => '']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'watermark_position'],['value' => '1']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_individuals_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_premium_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_health_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_elite_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_bdsm_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'post_section_masseuse_status'],['value' => '0']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'home_all'],['value' => '{"status":"0","count":null,"watermark":"0","template":"style_1","sort_order":null}']);
+        Settings::updateOrCreate(['code' => 'setting', 'key' => 'new_year_mode'],['value' => '0']);
+    }
+}

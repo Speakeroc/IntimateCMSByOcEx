@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .ex_post_item_image {
+        height: 340px !important;
+    }
+
+    .ex_post_item_info_block_buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+    }
+}

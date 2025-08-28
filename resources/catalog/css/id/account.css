@@ -1,0 +1,134 @@
+.ex_account_page_block {
+    margin-bottom: 40px;
+    color: white;
+    background: #1B1B1B;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 5px #1c1c1c;
+}
+
+.ex_account_page_main_photo {
+    width: 100%;
+    border-radius: 500px;
+}
+
+.upload-container, .preview-container {
+    position: relative;
+    width: 326px;
+    height: 425px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edf0f7;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.preload-container, .preload-container-logo, .preload-container-watermark {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 326px;
+    height: 425px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.preload-container.active, .preload-container-logo.active, .preload-container-watermark.active {
+    display: flex;
+}
+
+.preview-container img.preview-img {
+    width: 326px;
+    height: 425px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.preload-container svg {
+    width: 100px;
+    height: 100px;
+    fill: #2b74c5;
+    object-fit: cover;
+}
+
+.upload-placeholder {
+    width: 199px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 5px;
+    background: #151515;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #151515;
+}
+
+.upload-placeholder i {
+    color: #ffa500;
+}
+
+.delete-preview {
+    width: 199px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 5px;
+    background: #151515;
+    color: white;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #151515;
+}
+
+.delete-preview i {
+    color: #ffa500;
+}
+
+.ex_upload_preview {
+    width: 85%;
+    height: 85%;
+    fill: #000000;
+    padding: 5px;
+}
+
+.ex_account_btn {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    background: #ffa500;
+}
+
+.ex_account_table {}
+.ex_account_table table {
+    --bs-table-color: #fff;
+    --bs-table-bg: #151515;
+    --bs-table-border-color: #282828;
+    --bs-table-striped-bg: #151515;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #151515;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #151515;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}

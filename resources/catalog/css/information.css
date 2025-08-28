@@ -1,0 +1,32 @@
+.ex_information_page_title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ex_information_page_block {
+    margin-bottom: 40px;
+    color: white;
+    background: #1B1B1B;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 5px #1c1c1c;
+}
+
+.ex_information_page_main_photo {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.ex_contact_page_main_block {
+    max-width: 700px;
+    margin: 0 auto;
+}

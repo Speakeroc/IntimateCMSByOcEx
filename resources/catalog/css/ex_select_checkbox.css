@@ -1,0 +1,50 @@
+.ex_select_checkbox_block {
+    background: #1B1B1B;
+    border-radius: 5px;
+    padding: 5px 5px;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+}
+
+.ex_select_checkbox_block.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 9;
+}
+
+.ex_select_checkbox_title {
+    color: white;
+}
+
+.ex_select_checkbox_list {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background: #1B1B1B;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    color: white;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.ex_select_checkbox_block.active .ex_select_checkbox_list {
+    display: block;
+}
+
+.ex_select_checkbox_item {
+    cursor: pointer;
+}
+
+.ex_select_checkbox_item .form-check {
+    margin: 0;
+}
+
+.ex_select_checkbox_item .form-check-label {
+    cursor: pointer;
+    width: 100%;
+}

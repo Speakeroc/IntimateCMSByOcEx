@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'save'              => 'Сохранить',
+    'add'               => 'Добавить',
+    'create'            => 'Создать',
+    'ticket_create'     => 'Создать тикет',
+    'ticket_close'      => 'Закрыть тикет',
+    'close'             => 'Закрыть',
+    'upload_image'      => 'Загрузить фото',
+    'upload_photo'      => 'Загрузить фото',
+    'upload_selfie'     => 'Загрузить селфи',
+    'upload_video'      => 'Загрузить видео',
+    'delete'            => 'Удалить',
+    'delete_selected'   => 'Удалить выбранные',
+    'replenish'         => 'Пополнить',
+    'payment'           => 'Оплатить',
+    'checks'            => 'Проверить',
+    'access'            => 'Разрешить',
+    'noaccess'          => 'Удалить',
+    'processed'         => 'Обработано',
+    'btn_later'         => 'Позже',
+    'btn_do_not_show'   => 'Не показывать',
+    'show_more'         => 'Показать больше',
+    'hide'              => 'Скрыть',
+];

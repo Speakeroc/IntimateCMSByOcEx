@@ -1,0 +1,95 @@
+.ex_pay_page_block {
+    margin-bottom: 40px;
+    color: white;
+    background: #1B1B1B;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 5px #1c1c1c;
+}
+
+.ex_pay_page_block_empty_btn {
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: fit-content;
+    padding: 5px 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-main);
+    color: black;
+    text-decoration: none;
+}
+
+.ex_online_page_title {
+    height: 38px;
+}
+
+.ex_payment_page_title {
+    height: 38px;
+}
+
+.ex_online_payment_input {
+    width: 100%;
+}
+
+.ex_pin_code_item {
+    background: #141414;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ex_pin_code_item_n {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.ex_pin_code_item_n span:nth-child(1) {
+    font-size: 16px;
+}
+
+.ex_pin_code_item_n span:nth-child(2) {
+    font-size: 26px;
+}
+
+.ex_pin_code_item_p {
+    display: flex;
+    text-decoration: none;
+    padding: 0 10px;
+    background: #007023;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+}
+
+.ex_pin_code_item_t {
+}
+
+.ex_pin_code_item_b {
+    display: flex;
+    text-decoration: none;
+    padding: 0 10px;
+    background: var(--color-main);
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    font-weight: 600;
+}

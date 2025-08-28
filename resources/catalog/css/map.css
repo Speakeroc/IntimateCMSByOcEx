@@ -1,0 +1,66 @@
+.ex_map_image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.ex_map_name {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-main) !important;
+    border-bottom: 2px dashed var(--color-main);
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+
+.ex_map_phone {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-main) !important;
+    border-bottom: 2px dashed var(--color-main);
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.ex_map_prices {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0;
+    padding-top: 5px;
+    width: 151px;
+}
+
+.ex_map_prices_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ex_map_prices_item_icon {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.ex_map_prices_item_icon_svg {
+    width: 16px;
+    height: 16px;
+    fill: #000000;
+}
+
+.ex_map_prices_item_price {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-main);
+}

@@ -1,0 +1,162 @@
+<?php
+
+return [
+    'list'                  => 'Список анкет',
+    'user'                  => 'Пользователь',
+    'user_r'                => ':login (:email)',
+    'name'                  => 'Имя',
+    'name_p'                => 'Введите имя',
+    'city'                  => 'Город',
+    'phone'                 => 'Телефон',
+    'messengers'            => 'Мессенджеры и ссылки',
+    'telegram'              => 'Телеграм',
+    'telegram_link'         => 'Ссылка',
+    'telegram_login'        => 'Логин',
+    'whatsapp'              => 'Whatsapp',
+    'instagram'             => 'Instagram',
+    'polee'                 => 'Polee',
+    'tags'                  => 'Теги',
+
+    'call_time'             => 'Время для звонка',
+    'call_time_hours'       => 'Круглосуточно',
+    'call_time_to_time'     => 'В указанный промежуток времени',
+
+    'delete_code'           => 'Код для удаления анкеты',
+    'delete_info'           => '(На случай потери доступа к аккаунту)',
+    'delete_place'          => 'Минимум 6 символов (поддерживаются латинские буквы и цифры)',
+
+    'age'                   => 'Возраст',
+    'weight'                => 'Вес',
+    'cloth'                 => 'Одежда',
+    'height'                => 'Рост',
+    'breast'                => 'Грудь',
+    'shoes'                 => 'Обувь',
+
+    'nationality'           => 'Национальность',
+    'body_type'             => 'Телосложение',
+    'hair_color'            => 'Цвет волос',
+    'hairy'                 => 'Интимная стрижка',
+
+    'client_age'            => 'Желаемый возраст клиента',
+    'body_art'              => 'Боди-арт',
+    'visit_places'          => 'Выезд',
+
+    'prefix_age'            => 'лет',
+    'prefix_weight'         => 'кг',
+    'prefix_sm'             => 'см',
+    'prefix_size'           => 'Размер',
+
+    'block_main'            => 'Основное',
+    'block_location'        => 'Расположение',
+    'block_prices'          => 'Расценки',
+    'block_description'     => 'О себе',
+    'block_services'        => 'Предоставляемые услуги',
+    'block_admin'           => 'Админ панель',
+
+    'zone'                  => 'Район',
+    'metro'                 => 'Метро',
+
+    'time'                  => 'Время',
+    'apartments'            => 'Апартаменты',
+    'outside'               => 'Выезд',
+    'one_hour'              => '1 час',
+    'two_hours'             => '2 часа',
+    'day'                   => 'День',
+    'night'                 => 'Ночь',
+    'express'               => 'Есть экспресс (30 мин)',
+
+    'description'           => 'О себе',
+    'min_symbol'            => 'Минимум :num символ|Минимум :num символа|Минимум :num символов',
+
+    'services_type_1'       => 'включено в стоимость',
+    'services_type_2'       => 'по симпатии',
+    'services_type_3'       => 'за дополнительную плату',
+    'services_type_4'       => 'услуга не предоставляется',
+    'description_service'   => 'Дополнительный текст',
+
+    'title_services_type_1' => 'Включено',
+    'title_services_type_2' => 'По симпатии',
+    'title_services_type_3' => 'За дополнительную плату',
+    'title_services_type_4' => 'Отключено',
+
+    'image_photo'           => 'Фото',
+    'image_selfie'          => 'Селфи',
+    'image_video'           => 'Видео',
+    'image_verify'          => 'Верификация',
+
+    'location_text'         => 'Поставьте точку на карте со своим местоположением. Нажмите на на точку повторно что бы её удалить.',
+
+    'answering_title'       => 'Отвечаю на',
+    'answering_call'        => 'Звонки',
+    'answering_sms'         => 'СМС',
+    'answering_messages'    => 'Мессенджеры',
+
+    'services_for'          => 'Услуги для',
+    'language_skills'       => 'Знание языков',
+
+    'desired_sections'      => 'Желаемые разделы',
+    's_individuals'         => 'Индивидуалки',
+    's_individuals_help'    => 'Анкета будет размещена в категории "Индивидуалки" если пройдена верификация',
+    's_premium'             => 'PREMIUM',
+    's_premium_help'        => 'Анкета будет размещена в категории "PREMIUM" если пройдена верификация',
+    's_health'              => 'Health+',
+    's_health_help'         => 'Анкета будет размещена в категории "Health+", потребуется справка о здоровье.',
+    's_masseuse'            => 'Массажистка',
+    's_masseuse_help'       => 'Анкета будет показываться только в категории "Массажистки"',
+    's_elite'               => 'Элитные',
+    's_elite_help'          => 'Анкета будет размещена в категории "Элитные"',
+    's_bdsm'                => 'БДСМ',
+    's_bdsm_help'           => 'Анкета будет размещена в категории "БДСМ"',
+
+    'support_text_photo'    => 'Загрузите фотографии. Для удобства просмотра желательно что бы размер фотографии был не более :widthpx по ширине и не более :heightpx по высоте. Формат изображения: :format. Размер изображения не больше :sizeмб',
+    'support_text_selfie'   => 'Загрузите селфи. Для удобства просмотра желательно что бы размер фотографии был не более :widthpx по ширине и не более :heightpx по высоте. Формат изображения: :format. Размер изображения не больше :sizeмб',
+    'support_text_verify'   => 'Загрузите проверочное фото. Для удобства просмотра желательно что бы размер фотографии был не более :widthpx по ширине и не более :heightpx по высоте. Формат изображения: :format. Размер изображения не больше :sizeмб',
+    'support_text_video'    => 'Загрузите видео ролик. Допустимые форматы файлов: :format. Максимальный размер файла :sizeмб',
+
+    'max_files_count'       => 'Превышено количество файлов, допустико :num файл|Превышено количество файлов, допустико :num файла|Превышено количество файлов, допустико :num файлов',
+
+
+    'status_diamond'        => 'Статус Diamond',
+    'diamond_date'          => 'Дата окончания Diamond',
+    'status_vip'            => 'Статус VIP',
+    'vip_date'              => 'Дата окончания VIP',
+    'status_color'          => 'Статус Color',
+    'color_date'            => 'Дата окончания Color',
+    'verify_status'         => 'Верифицирование',
+    'up_date_status'        => 'Поднятие анкеты',
+    'up_date_one'           => 'Оставить как есть',
+    'up_date_two'           => 'Поднять',
+    'publish'               => 'Опубликовать',
+    'publish_date'          => 'Дата окончания Публикации',
+
+    'age_choice'            => ':num год|:num года|:num лет',
+
+    'notify_created'        => 'Новая анкета добавлена',
+    'notify_updated'        => 'Анкета отредактирована',
+    'notify_moderation'     => 'Модерация анкеты выполнена',
+    'notify_deleted'        => 'Анкета удалена',
+    'notify_image_deleted'  => 'Фото удалено',
+    'notify_video_deleted'  => 'Видео удалено',
+
+    'col_image'             => 'Основное изображение',
+    'col_publish'           => 'Публикация',
+    'col_info'              => 'Информация',
+    'col_publish_date'      => 'Добавлено',
+    'verify'                => 'Верификация',
+    'verify_yes'            => 'Пройдена',
+    'verify_no'             => 'Не пройдена',
+
+    'moderation'            => 'Модерация',
+    'moderation_txt'        => 'Текст отказа',
+
+    'status_diamond_on'     => 'Diamond статус включен до :date',
+    'status_diamond_off'    => 'Diamond статус выключен',
+    'status_vip_on'         => 'VIP статус включен до :date',
+    'status_vip_off'        => 'VIP статус выключен',
+    'status_color_on'       => 'Color статус включен до :date',
+    'status_color_off'      => 'Color статус выключен',
+    'status_verify_on'      => 'Верификация пройдена',
+    'status_verify_off'     => 'Верификация не пройдена',
+
+    'posts_choice'          => ':num анкета|:num анкеты|:num анкет',
+];

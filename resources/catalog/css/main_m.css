@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+    .ex_sidebar__main {
+        width: calc(100% - 20px);
+        padding: 40px 10px 30px 10px;
+    }
+
+    .ex_sidebar__close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .ex_sidebar__posts_add {
+        font-size: 16px;
+        height: 35px;
+        padding: 0 10px;
+    }
+
+    .ex_sidebar__account_balance {
+        padding: 5px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+    }
+
+    .ex_sidebar__account_link {
+        background: #161616;
+    }
+
+    .ex_post_big_item_image {
+        height: 250px !important;
+    }
+
+    .ex_post_big_item_post_name {
+        font-size: 20px;
+    }
+
+    .ex_post_big_item_info_block_top {
+        gap: 0;
+    }
+
+    .ex_post_big_item_post_prices {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ex_post_big_item_post_price {
+        width: 100%;
+    }
+
+    .ex_post_big_item_post_tags {
+        display: none;
+    }
+
+    .ex_post_big_item_post_description {
+        display: none;
+    }
+
+    .ex_post_big_item_button_contact {
+        color: black;
+        height: 28px;
+        width: 100%;
+        padding: 0 15px;
+        background: var(--color-main);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ex_post_big_item_block_statuses {
+        top: 5px;
+        left: 5px;
+    }
+
+    .ex_post_big_item_block_image_info {
+        top:5px;
+        right:5px;
+        gap: 5px;
+    }
+
+    .ex_post_small_item_image {
+        height: 250px !important;
+    }
+
+    .ex_post_small_item_block_name {
+        bottom: 5px;
+        left: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        text-shadow: 1px 1px 5px #000;
+        gap: 5px;
+    }
+
+    .ex_post_small_item_block_status {
+        border: 1px solid;
+        padding: 0 5px;
+        font-weight: 500;
+        font-size: 14px;
+        box-shadow: none !important;
+    }
+
+    .ex_block_title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .ex_post_big_two_item_post_params {
+        width: 70%;
+    }
+}

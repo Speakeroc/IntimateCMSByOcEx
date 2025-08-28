@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .ex_post_banner_image {
+        height: 115px;
+        border-radius: 5px;
+    }
+}

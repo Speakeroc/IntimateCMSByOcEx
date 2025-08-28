@@ -1,0 +1,1 @@
+User-agent: * Disallow: /*?page=$ Disallow: /*&page=$ Disallow: /id* Disallow: /auth* Disallow: /search? Disallow: /images/cache/ Disallow: /images/posts/ Sitemap: https://cms.ocex.dev/sitemap.xml

@@ -1,0 +1,128 @@
+.ex_blacklist_page_block {
+    margin-bottom: 40px;
+    color: white;
+    background: #1B1B1B;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 5px #1c1c1c;
+}
+
+.ex_blacklist_mini_title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.ex_blacklist_text_border {
+    font-size: 14px;
+    border: 1px solid var(--color-main);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ex_blacklist_my_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+.ex_blacklist_my_list_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background: #151515;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+    width: 100%;
+}
+
+.ex_blacklist_my_list_item_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ex_blacklist_my_list_item_phone {
+    padding: 0 5px;
+    background: rgba(var(--color-main-rgb), 0.5);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.ex_blacklist_my_list_item_rating {
+}
+
+.ex_blacklist_my_list_item_content {
+    padding: 10px 0;
+}
+
+.ex_blacklist_my_list_item_footer {
+    color: white;
+    font-weight: 500;
+}
+
+.ex_blacllist_danger {
+    color: #FF4F4F;
+}
+
+.ex_blacllist_warning {
+    color: orange;
+}
+
+.ex_blacllist_success {
+    color: #198754;
+}
+
+.ex_blacklist_btn {
+    background: #ffa500 !important;
+    outline: none !important;
+    border-color: #ffa500 !important;
+    color: black;
+    font-weight: 600;
+}
+
+.ex_blacklist_result_block {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.ex_blacklist_result_block_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.ex_blacklist_result_block_title {
+}
+
+.ex_blacklist_result_block_btn {
+}
+
+.ex_set_rating_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.ex_set_rating_list label {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.ex_set_phone_textarea {
+    min-height: 105px !important;
+}

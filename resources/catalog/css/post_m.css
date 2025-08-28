@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .ex_post_hourly_light, .ex_post_hourly_night {
+        width: 50%;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .ex_post_hourly_double {
+        width: 100%;
+    }
+    .ex_post_page_main_photo {
+        border-radius: 10px;
+        height: 450px;
+    }
+    .ex_post_hourly {
+        width: 100%;
+    }
+    .ex_post_content_item_video {
+        max-height: 150px;
+    }
+}
